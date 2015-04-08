@@ -46,7 +46,7 @@ public class ContactInfoFragment extends Fragment implements View.OnClickListene
 
         // set for mail setting
         Pattern p = Pattern.compile("moumoutsay@gmail.com");
-        String Scheme = "mailto:moumoutsay@gmail.com";
+        String Scheme = "mailto:";
         Linkify.addLinks((TextView) rootView.findViewById(R.id.textMail), p, Scheme);
 
         // set click listener to like dislike

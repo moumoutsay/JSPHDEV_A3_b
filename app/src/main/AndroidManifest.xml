@@ -31,6 +31,10 @@
             android:label="WallPaperActivity" >
         </activity>
 
+        <activity
+            android:name=".ui.GetOnMailActivity"
+            android:label="GetOnMailActivity" >
+        </activity>
     </application>
 
 </manifest>

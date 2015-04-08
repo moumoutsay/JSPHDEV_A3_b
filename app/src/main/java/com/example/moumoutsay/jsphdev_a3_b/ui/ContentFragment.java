@@ -40,7 +40,7 @@ public class ContentFragment extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.buttonGotOnMail:
-                // TODO
+                startActivity(new Intent(getActivity(),GetOnMailActivity.class));
                 break;
             case R.id.buttonSong:
                 startActivity(new Intent(getActivity(),SongActivity.class));
